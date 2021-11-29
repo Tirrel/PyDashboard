@@ -22,7 +22,7 @@ TAG = "AppMain."
 #
 # -------------------------------------------------------
 def buildBanner():
-    image_filename = 'img/plotly_logo.png'
+    image_filename = 'img/logo.png'
     encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 
     return html.Div(
