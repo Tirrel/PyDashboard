@@ -47,4 +47,4 @@ Thumbs.db
 *.mov
 *.wmv
 
-/vent
+/venv/
