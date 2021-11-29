@@ -22,8 +22,7 @@ TAG = "AppMain."
 #
 # -------------------------------------------------------
 def buildBanner():
-    image_filename = 'img/logo.png'
-    encoded_image = base64.b64encode(open(image_filename, 'rb').read())
+    encoded_image = base64.b64encode(open('/home/marcotirelli/PyDashboard/img/logo.png', 'rb').read())
 
     return html.Div(
         id=ID_BANNER_LAYOUT,

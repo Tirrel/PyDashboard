@@ -74,7 +74,7 @@ class FileIniHandler(object):
     #
     # -------------------------------------------------------
     def read(self):
-        self.config_parser.read(INI_FILE_NAME)
+        self.config_parser.read("/home/marcotirelli/PyDashboard/" + INI_FILE_NAME)
 
         if self.config_parser.has_section(SECTION_MAIN):
             if self.config_parser.has_option(SECTION_MAIN, OPTION_INI_FILE_PATH):

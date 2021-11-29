@@ -20,7 +20,7 @@ from util.Keys import *
 TAG = "PageSearch."
 
 file_ini_handler = FileIniHandler()
-search_image = base64.b64encode(open('img/search.png', 'rb').read())
+search_image = base64.b64encode(open('/home/marcotirelli/PyDashboard/img/search.png', 'rb').read())
 
 search_value = ""
 
